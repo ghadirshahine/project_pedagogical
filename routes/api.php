@@ -17,3 +17,11 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('register','ApiAuthController@register');
+Route::post('login','ApiAuthController@login');
+
+
+Route::middleware('auth:api')->group( function() {
+    Route::resource('comments','CommentController');
+});
