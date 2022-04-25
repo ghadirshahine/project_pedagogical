@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Lcobucci\JWT\Token;
@@ -90,3 +91,12 @@ final class Plain implements TokenInterface
              . $this->signature->toString();
     }
 }
+=======
+
+namespace Lcobucci\JWT\Token;
+
+use Lcobucci\JWT\Token;
+use function class_alias;
+
+class_exists(Plain::class, false) || class_alias(Token::class, Plain::class);
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d

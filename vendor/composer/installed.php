@@ -1,11 +1,15 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
+<<<<<<< HEAD
         'reference' => 'f6edd9f94c9143c9a21a1407ace46be268679c75',
+=======
+        'reference' => NULL,
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -401,12 +405,16 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
+<<<<<<< HEAD
             'reference' => 'f6edd9f94c9143c9a21a1407ace46be268679c75',
+=======
+            'reference' => NULL,
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
             'dev_requirement' => false,
         ),
         'laravel/passport' => array(
@@ -436,6 +444,7 @@
             'reference' => 'd01a705763c243b07be795e9d1bb47f89260f73d',
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'lcobucci/clock' => array(
             'pretty_version' => '2.0.0',
             'version' => '2.0.0.0',
@@ -452,6 +461,15 @@
             'install_path' => __DIR__ . '/../lcobucci/jwt',
             'aliases' => array(),
             'reference' => '55564265fddf810504110bd68ca311932324b0e9',
+=======
+        'lcobucci/jwt' => array(
+            'pretty_version' => '3.4.6',
+            'version' => '3.4.6.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../lcobucci/jwt',
+            'aliases' => array(),
+            'reference' => '3ef8657a78278dfeae7707d51747251db4176240',
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
             'dev_requirement' => false,
         ),
         'league/commonmark' => array(
@@ -746,12 +764,12 @@
             'dev_requirement' => true,
         ),
         'psr/container' => array(
-            'pretty_version' => '1.1.2',
-            'version' => '1.1.2.0',
+            'pretty_version' => '1.1.1',
+            'version' => '1.1.1.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../psr/container',
             'aliases' => array(),
-            'reference' => '513e0666f7216c7459170d56df27dfcefe1689ea',
+            'reference' => '8622567409010282b7aeebe4bb841fe98b58dcaf',
             'dev_requirement' => false,
         ),
         'psr/container-implementation' => array(

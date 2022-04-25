@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "906f6c98b4dee16deb640d10ad892b86",
+=======
+    "content-hash": "a68499f69a2a108a5b2c7356840355fa",
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1407,6 +1411,7 @@
             "time": "2020-11-03T19:45:19+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "lcobucci/clock",
             "version": "2.0.0",
             "source": {
@@ -1479,11 +1484,25 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/lcobucci/jwt/zipball/55564265fddf810504110bd68ca311932324b0e9",
                 "reference": "55564265fddf810504110bd68ca311932324b0e9",
+=======
+            "name": "lcobucci/jwt",
+            "version": "3.4.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcobucci/jwt.git",
+                "reference": "3ef8657a78278dfeae7707d51747251db4176240"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/3ef8657a78278dfeae7707d51747251db4176240",
+                "reference": "3ef8657a78278dfeae7707d51747251db4176240",
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
+<<<<<<< HEAD
                 "lcobucci/clock": "^2.0",
                 "php": "^7.4 || ^8.0"
             },
@@ -1499,14 +1518,39 @@
                 "phpstan/phpstan-strict-rules": "^0.12",
                 "phpunit/php-invoker": "^3.1",
                 "phpunit/phpunit": "^9.4"
+=======
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.5",
+                "phpmd/phpmd": "~2.2",
+                "phpunit/php-invoker": "~1.1",
+                "phpunit/phpunit": "^5.7 || ^7.3",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "suggest": {
+                "lcobucci/clock": "*"
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "4.0-dev"
                 }
             },
             "autoload": {
+=======
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "compat/class-aliases.php",
+                    "compat/json-exception-polyfill.php",
+                    "compat/lcobucci-clock-polyfill.php"
+                ],
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
                 "psr-4": {
                     "Lcobucci\\JWT\\": "src"
                 }
@@ -1517,7 +1561,11 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Luís Cobucci",
+=======
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
                     "email": "lcobucci@gmail.com",
                     "role": "Developer"
                 }
@@ -1529,7 +1577,11 @@
             ],
             "support": {
                 "issues": "https://github.com/lcobucci/jwt/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/lcobucci/jwt/tree/4.0.4"
+=======
+                "source": "https://github.com/lcobucci/jwt/tree/3.4.6"
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
             },
             "funding": [
                 {
@@ -2774,20 +2826,20 @@
         },
         {
             "name": "psr/container",
-            "version": "1.1.2",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/container.git",
-                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea"
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/513e0666f7216c7459170d56df27dfcefe1689ea",
-                "reference": "513e0666f7216c7459170d56df27dfcefe1689ea",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/8622567409010282b7aeebe4bb841fe98b58dcaf",
+                "reference": "8622567409010282b7aeebe4bb841fe98b58dcaf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4.0"
+                "php": ">=7.2.0"
             },
             "type": "library",
             "autoload": {
@@ -2816,9 +2868,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-fig/container/issues",
-                "source": "https://github.com/php-fig/container/tree/1.1.2"
+                "source": "https://github.com/php-fig/container/tree/1.1.1"
             },
-            "time": "2021-11-05T16:50:12+00:00"
+            "time": "2021-03-05T17:36:06+00:00"
         },
         {
             "name": "psr/event-dispatcher",
@@ -8190,5 +8242,5 @@
         "php": "^7.2.5"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.2.0"
 }

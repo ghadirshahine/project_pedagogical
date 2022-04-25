@@ -17,6 +17,7 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+<<<<<<< HEAD
 
 Route::post('register','ApiAuthController@register');
 Route::post('login','ApiAuthController@login');
@@ -25,3 +26,8 @@ Route::post('login','ApiAuthController@login');
 Route::middleware('auth:api')->group( function() {
     Route::resource('comments','CommentController');
 });
+=======
+Route::middleware('auth:api')->group( function () {
+      Route::resource('posts','PostController');
+});
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d

@@ -4,7 +4,11 @@
     "type": "library",
     "authors": [
         {
+<<<<<<< HEAD
             "name": "Luís Cobucci",
+=======
+            "name": "Luís Otávio Cobucci Oblonczyk",
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
             "email": "lcobucci@gmail.com",
             "role": "Developer"
         }
@@ -17,6 +21,7 @@
         "BSD-3-Clause"
     ],
     "require": {
+<<<<<<< HEAD
         "php": "^7.4 || ^8.0",
         "ext-mbstring": "*",
         "ext-openssl": "*",
@@ -34,15 +39,37 @@
         "phpstan/phpstan-strict-rules": "^0.12",
         "phpunit/php-invoker": "^3.1",
         "phpunit/phpunit": "^9.4"
+=======
+        "php": "^5.6 || ^7.0",
+        "ext-mbstring": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7 || ^7.3",
+        "squizlabs/php_codesniffer": "~2.3",
+        "phpmd/phpmd": "~2.2",
+        "phpunit/php-invoker": "~1.1",
+        "mikey179/vfsstream": "~1.5"
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
     },
     "autoload": {
         "psr-4": {
             "Lcobucci\\JWT\\": "src"
+<<<<<<< HEAD
         }
+=======
+        },
+        "files": [
+            "compat/class-aliases.php",
+            "compat/json-exception-polyfill.php",
+            "compat/lcobucci-clock-polyfill.php"
+        ]
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
     },
     "autoload-dev": {
         "psr-4": {
             "Lcobucci\\JWT\\": [
+<<<<<<< HEAD
                 "test/_keys",
                 "test/unit",
                 "test/performance"
@@ -57,6 +84,19 @@
     "extra": {
         "branch-alias": {
             "dev-master": "4.0-dev"
+=======
+                "test/unit",
+                "test/functional"
+            ]
+        }
+    },
+    "suggest": {
+        "lcobucci/clock": "*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.1-dev"
+>>>>>>> 19869297f653205e3be51fb2c946020635005a7d
         }
     }
 }
