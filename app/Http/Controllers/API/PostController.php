@@ -46,7 +46,7 @@ class PostController extends Controller
         $input = $request->all();
         $validator = Validator::make($input,[
             'counselor_name'=> 'required',
-            'counselor_image'=> 'required',
+            'counselor_image'=> 'image',
             'countent'=> 'required',
         ]);
 
@@ -55,6 +55,8 @@ class PostController extends Controller
         }
         $post = Post::create($input);
         return $this->sendResponse(new PostResource($post),'Post created successfully');
+
+       
 
     }
 
